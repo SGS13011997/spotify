@@ -181,18 +181,4 @@ SELECT
     SUM(likes) OVER (ORDER BY views DESC) AS cumulative_likes
 FROM 
     spotify;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-----
